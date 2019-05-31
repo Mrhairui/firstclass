@@ -1,2 +1,2 @@
 import numpy as np
-print('he is a pig')
+a = np.array([2, 3, 4])
