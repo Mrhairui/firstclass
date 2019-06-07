@@ -112,4 +112,5 @@ def creat_tree(X, Y):
 
 
 
-tree = creat_tree(X, Y) 
+tree = creat_tree(X, Y)
+
