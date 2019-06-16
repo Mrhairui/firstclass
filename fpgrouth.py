@@ -68,9 +68,17 @@ def updateheader(nodetotest, targetnode):
         nodetotest = nodetotest.nodelink
     nodetotest.nodelink = targetnode
 
-
 dataset = loaddata()
 tree, headertable = createtree(dataset, 3)
+
+
+
+
+
+
+
+
+
 
 
 
