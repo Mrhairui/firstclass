@@ -1,6 +1,5 @@
 class Solution:
     def twoSum(self, nums, target) :
-        nums = sorted(nums)
         i=0
         j=0
         for i in range(len(nums)):
