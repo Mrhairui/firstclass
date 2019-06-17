@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3384c2ee-8fd9-43df-aef0-fcc26095e846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sum_dict1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="11" selection-end-column="42" />
+              <caret selection-end-line="10" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sum_dict1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -78,10 +87,11 @@
         <option value="$PROJECT_DIR$/fpgrouth.py" />
         <option value="$PROJECT_DIR$/fpgrouthlx.py" />
         <option value="$PROJECT_DIR$/sum.py" />
+        <option value="$PROJECT_DIR$/sum_dict1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="894" />
     <option name="y" value="201" />
     <option name="width" value="974" />
@@ -122,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sum">
+  <component name="RunManager" selected="Python.sum_dict1">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ML_Mrhairui" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,28 +221,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML_Mrhairui" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmeans.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML_Mrhairui" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -252,13 +240,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sum_dict1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ML_Mrhairui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sum_dict1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sum_dict1" />
         <item itemvalue="Python.sum" />
         <item itemvalue="Python.fpgrouthlx" />
         <item itemvalue="Python.fpgrouth" />
         <item itemvalue="Python.apriori" />
-        <item itemvalue="Python.kmeans" />
       </list>
     </recent_temporary>
   </component>
@@ -287,12 +294,12 @@
       <workItem from="1560433893557" duration="5522000" />
       <workItem from="1560521653506" duration="1756000" />
       <workItem from="1560648413300" duration="15924000" />
-      <workItem from="1560778484096" duration="1599000" />
+      <workItem from="1560778484096" duration="2767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115988000" />
+    <option name="totallyTimeSpent" value="117156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,7 +311,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -385,11 +392,6 @@
           <url>file://$PROJECT_DIR$/apriori.py</url>
           <line>40</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/sum.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -548,7 +550,14 @@
     <entry file="file://$PROJECT_DIR$/sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="11" selection-end-column="42" />
+          <caret selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sum_dict1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
