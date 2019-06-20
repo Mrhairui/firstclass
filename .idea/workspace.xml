@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3384c2ee-8fd9-43df-aef0-fcc26095e846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_zifu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_sum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="255">
+              <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3_zifu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -82,14 +92,15 @@
         <option value="$PROJECT_DIR$/sum_dict1.py" />
         <option value="$PROJECT_DIR$/sum_dict2.py" />
         <option value="$PROJECT_DIR$/2_sum.py" />
+        <option value="$PROJECT_DIR$/3_zifu.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="501" />
+    <option name="y" value="117" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -131,6 +142,9 @@
       <module name="ML_Mrhairui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -293,12 +307,13 @@
       <workItem from="1560648413300" duration="15924000" />
       <workItem from="1560778484096" duration="3790000" />
       <workItem from="1560867180813" duration="2931000" />
-      <workItem from="1560950712264" duration="3951000" />
+      <workItem from="1560950712264" duration="4909000" />
+      <workItem from="1561036677383" duration="2289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125061000" />
+    <option name="totallyTimeSpent" value="128308000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,7 +325,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="1003" y="28" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -327,14 +342,14 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32952183" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.31496882" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.31794333" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.47496206" visible="true" weight="0.024520256" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.47384617" visible="true" weight="0.05032823" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" content_ui="combo" id="Project" order="5" sideWeight="0.5169753" side_tool="true" weight="0.10393873" />
-      <window_info anchor="right" x="0" y="0" width="434" height="896" id="Documentation" order="6" sideWeight="0.52503794" side_tool="true" visible="true" weight="0.024520256" />
+      <window_info anchor="right" x="0" y="0" width="434" height="896" id="Documentation" order="6" sideWeight="0.52615386" side_tool="true" visible="true" weight="0.05032823" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
@@ -574,8 +589,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="255">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_zifu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>

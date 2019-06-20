@@ -17,7 +17,7 @@ class Solution:
                 sum = p1.val + p2.val + p3.next.val
                 p3.next.val = sum % 10
                 p3.next.next = ListNode(sum // 10)
-                p1 = p1.next
+                p1 = p1.next  # 相当于把p1.next这个对象的地址赋给p1了，原来是用p1.next来指的
                 p2 = p2.next
                 p3 = p3.next
             elif p1 and not p2:
@@ -36,7 +36,7 @@ class Solution:
                 if p3.next.val == 0:
                     p3.next = None
                 break
-        return l3, p3
+        return l3, p3  # l3是原来的但是p3一直往后走
 
 
 solution = Solution()
